@@ -78,37 +78,11 @@ useEffect(() => {
          ))}   
         </div>
 
-        {/* <ChatInput channelName={(roomDetails)?.name} channelId={roomId} /> */}
+        
         <ChatInput channelName={titleState} channelId={roomId} />
      </div>
    )
  }
 export default Chat
 
-
-
-
-//  async function getData() {
-    
-  //    let Arr = []
-  //      const dataCollections = db.collection('rooms').doc('messages')
-      
-    //  const dataCollections = (collection(db, 'rooms'))
-    // const dataCollections = (collection(db('rooms').doc('messages')))
-    
-//       const data = await getDocs(dataCollections)
-
-//      const result = data.docs.map(doc => doc.data({}))
-//      data.forEach(data )
-//      for (let i = 0; i < result.length; i++) {
-//        const element = result[i];
-//        const dataDocs = data.docs[i]
-//        Arr.push({...element, id: dataDocs.id})
-//      }
-//      setRoomMessages(Arr)
-//  }
-//  console.log(setRoomMessages)
-// useEffect(() => {
-//   getData()
-// }, [id])
 

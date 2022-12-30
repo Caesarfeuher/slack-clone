@@ -1,8 +1,15 @@
 body{
   --slack-color:#3f0f40;
-  overflow: hidden;
+  /* overflow: hidden; */
+
 }
 .app__body{
   display: flex;
   height: 100vh;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
 }
